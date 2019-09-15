@@ -1,7 +1,10 @@
+body{
+    margin: 0;
+}
 header {
-  padding: 10px;
+  /* padding: 10px; */
   /* border-style: dotted; */
-  border: 20px dashed blue;
+  /* border: 20px dashed blue; */
   /* margin: 20px 30px 40px 50px; */
   /* background-color: gray; */
 }
@@ -17,21 +20,27 @@ h1 {
   padding: 20px;
   background-color: aqua;
 }
-.div1>p{
-    padding: 10px;
-    background-color: grey;
-
+.div1 > p {
+  padding: 10px;
+  background-color: grey;
 }
-.par1{
-    padding: 10px;
-    background-color: lightpink;
+.par1 {
+  padding: 10px;
+  background-color: lightpink;
 }
-.span-one>p {
-    padding: 10px;
-    background-color:lightsteelblue;
+.span-one > p {
+  padding: 10px;
+  background-color: lightsteelblue;
 }
+/* header */
 .page-title {
-    position: fixed;
-    top: 0;
-    width: 100%;
+  position: fixed;
+  top: 0;
+  /* height: 80px; */
+  text-align: center;
+  width: 100%;
+}
+.spacer{
+    height: 100px; 
+
 }
