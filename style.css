@@ -2,7 +2,7 @@ header {
   padding: 10px;
   /* border-style: dotted; */
   border: 20px dashed blue;
-  margin: 20px 30px 40px 50px;
+  /* margin: 20px 30px 40px 50px; */
   /* background-color: gray; */
 }
 h1 {
@@ -29,4 +29,9 @@ h1 {
 .span-one>p {
     padding: 10px;
     background-color:lightsteelblue;
+}
+.page-title {
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
