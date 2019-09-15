@@ -1,0 +1,32 @@
+header {
+  padding: 10px;
+  /* border-style: dotted; */
+  border: 20px dashed blue;
+  margin: 20px 30px 40px 50px;
+  /* background-color: gray; */
+}
+h1 {
+  padding: 10px;
+  /* border-style: dotted; */
+  border: 20px dashed rgb(33, 119, 233);
+  margin: 0;
+  background-color: purple;
+  color: white;
+}
+.div1 {
+  padding: 20px;
+  background-color: aqua;
+}
+.div1>p{
+    padding: 10px;
+    background-color: grey;
+
+}
+.par1{
+    padding: 10px;
+    background-color: lightpink;
+}
+.span-one>p {
+    padding: 10px;
+    background-color:lightsteelblue;
+}
