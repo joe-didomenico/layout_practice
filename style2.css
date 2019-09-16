@@ -1,0 +1,17 @@
+html{
+    background-color: plum;
+}
+body {
+    background-color: aqua;
+    margin: 8px;
+}
+div{
+    height: 250px;
+    background-color: chartreuse;
+    border: 10px dotted darkviolet;
+    /* border-width: 4px; */
+}
+div>:first-child {
+    background-color: blue;
+    color: antiquewhite;
+}

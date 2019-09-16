@@ -1,5 +1,6 @@
 body{
-    margin: 0;
+    margin: 20px;
+    background-color: lightgray;
 }
 header {
   /* padding: 10px; */
@@ -31,16 +32,32 @@ h1 {
 .span-one > p {
   padding: 10px;
   background-color: lightsteelblue;
+  width: 200px;
+  display: inline-block;
 }
 /* header */
 .page-title {
   position: fixed;
-  top: 0;
+  /* top: 0; */
   /* height: 80px; */
   text-align: center;
   width: 100%;
 }
 .spacer{
     height: 100px; 
-
+}
+.par0 {
+  /* position: fixed; */
+  padding: 30px;
+  background-color: lightgreen;
+  z-index: 1;
+}
+.par1 {
+  position:relative;
+  /* padding: 30px; */
+  background-color: lightgreen;
+  z-index: 101;
+}
+.span2{
+  background-color: yellow;
 }
