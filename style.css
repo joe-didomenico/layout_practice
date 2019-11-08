@@ -2,6 +2,22 @@ body{
     margin: 20px;
     background-color: lightgray;
 }
+.fbp2{
+  display: flex;
+}
+
+.fbc2{
+  display: flex;
+
+}
+
+.fbc2 label{
+  flex: .3;
+}
+.fbc2 input{
+  flex: .1;
+}
+
 header {
   /* padding: 10px; */
   /* border-style: dotted; */
